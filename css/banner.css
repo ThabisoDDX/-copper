@@ -44,6 +44,11 @@
  
 
 @media only screen and (min-width: 767px) {
+
+    .banner {
+        margin-top: -100px;
+        background: url(../img/banner/banner-tablet.png) no-repeat;
+    }
     
     .banner .wrapper {
         padding: 12em 0;
@@ -66,3 +71,16 @@
     }
 }
 
+@media only screen and (min-width: 1279px) {
+    .banner {
+        background: url(../img/banner/banner-desktop.png) no-repeat;
+    }
+
+    .banner h2 {
+        width: 55%;
+    }
+
+    .banner p {
+        width: 25%;
+    }
+}

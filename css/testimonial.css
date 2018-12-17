@@ -83,3 +83,27 @@
         float: right;
     }
 }
+
+@media only screen and (min-width: 1279px) {
+    .testimonial .content {
+        padding: 8em 5em;
+        width: 50%;
+    }
+
+    .testimonial .testimony {
+        width: 25%;
+        margin-right: 15em;
+        margin-top: -15em;
+    }
+
+    .testimonial .testimony p {
+        font-size: 1.5em;
+    }
+
+    .testimonial .grid {
+        position: relative;
+        width: 10%;
+        margin-top: -1.5em;
+        z-index: -1;
+    }
+}

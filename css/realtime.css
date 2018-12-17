@@ -86,3 +86,10 @@
         float: right;
     }
 }
+
+@media only screen and (min-width: 1279px) {
+    .notification {
+        width: 65%;
+        margin: 8em auto;
+    }
+}

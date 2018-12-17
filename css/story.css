@@ -95,3 +95,22 @@
        font-size: 1.5em;
     }
 }
+
+@media only screen and (min-width: 1279px) {
+    .story {
+        border-right: 40em solid #eeeff0;
+    }
+
+    .story .success {
+        padding-left: 0px;
+        overflow: visible;
+        height: 700px;
+    }
+
+    .story .quote {
+        width: 56%;
+        float: right;
+        margin-right: -35em;
+        margin-top: -30em;
+    }
+}

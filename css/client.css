@@ -43,3 +43,24 @@
         margin-left: 2.5em;
     }
 }
+
+@media only screen and (min-width: 1279px) {
+    .client {
+        padding: 0;
+        padding-top: 8em;
+    }
+    .client h2 {
+        width: 24%;
+    }
+
+    .client .logo {
+        width: 35%;
+    }
+
+    .client img {
+        width: 25%;
+        margin-right: 4em;
+        margin-top: 0;
+        margin-bottom: 8em;
+    }
+}

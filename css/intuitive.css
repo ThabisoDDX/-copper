@@ -82,3 +82,33 @@
     }
 }
 
+@media only screen and (min-width: 1279px) {
+    .industry img:last-of-type {
+        margin-top: 15em;
+        margin-left: -10em;
+    }
+
+    .intuitive .content {
+        margin: 8em 0em 0em 12em;
+        width: 43%;
+    }
+
+    .intuitive .content h2 {
+        width: 50%;
+    }
+
+    .intuitive .content p {
+        width: 48%;
+    }
+
+    .industry div {
+        width: 40%;
+        height: 500px;
+    }
+
+    .industry img:last-of-type {
+        margin-top: 15em;
+        margin-left: -10em;
+    }
+}
+

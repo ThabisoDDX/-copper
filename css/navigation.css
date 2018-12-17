@@ -60,7 +60,11 @@
 
 .main-header nav ul a img {
     height: 7px;
-    margin-left: .5em;;
+    margin-left: .5em;
+}
+
+.main-header nav ul a img:last-of-type {
+    display: none;
 }
 
 /* Media Queries */
@@ -106,5 +110,56 @@
     }
     .main-header nav ul {
        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 1279px) {
+    .main-header {
+        width: 92.1875%;
+        margin: 0 auto;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .main-header nav .open {
+        display: none;
+    }
+
+    .main-header nav {
+        width: 100%;
+        float: none;
+    }
+
+    .main-header nav ul {
+        position: relative;
+        display: inline-block;
+        width: 62%;
+        height: 100px;
+        padding: 40px 0;
+        padding-left: 4.3em;
+        background: transparent;
+    } 
+
+    .main-header nav ul a {
+        font-size: .8em;
+        color: #27262A;
+        float: left;
+        height: 62px;
+        margin: 0;
+        margin-left: 2.5em;
+        box-sizing: border-box;
+    }
+
+    .main-header nav ul a img:first-of-type {
+        display: none;
+    }
+
+    .main-header nav ul a img:last-of-type {
+        display: inline;
+    }
+
+    .main-header nav .call-to-action {
+        float: right;    
+        padding: 1.7em 0em;
     }
 }

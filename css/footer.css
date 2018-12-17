@@ -61,3 +61,28 @@
         width: 20%;
     }
 }
+
+@media only screen and (min-width: 1279px) {
+    
+    .main-footer .social-media {
+        float: left;
+        margin: 0 3em;
+    }
+
+    .main-footer .social-media h1 {
+        padding: 0;
+    }
+
+    .main-footer .social-media div {
+        margin-top: 1em;
+    }
+
+    .main-footer .widgets div {
+        width: 15%;
+    }
+
+    .main-footer .copyright {
+        padding: 1.5em 6em;
+        font-size: .625em;
+    }
+}
