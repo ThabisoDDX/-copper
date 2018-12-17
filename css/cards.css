@@ -1,0 +1,56 @@
+.cards {
+    width: 86%;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+.cards h3 {
+    font-size: .875em;
+    font-weight: 300;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    float: right;
+}
+
+.cards .card {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.cards .card figure img {
+    width: 100%;
+    height: auto;
+}
+
+.cards .card footer {
+    width: 80%;
+    padding-left: 1em;
+}
+
+.cards .card footer h4 {
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    margin: .5em 0;
+}
+
+.cards .card footer a {
+    display: inline-block;
+    text-decoration: none;
+    color: #27262A;
+    font-weight: 500;
+    font-size: .875em;
+    text-transform: capitalize;
+    border-bottom: 5px solid #B8FF01;
+    padding-bottom: .5em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.cards .card footer a img {
+    width: 12px;
+    margin-left: .2em;
+}

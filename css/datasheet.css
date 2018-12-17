@@ -1,0 +1,21 @@
+.datasheet {
+    text-align: center;
+    padding: 1em 0;
+    box-sizing: border-box;
+}
+
+.datasheet h2 {
+    font-size: 1.6em;
+    margin: 1em 0;
+}
+
+.datasheet button {
+    border-style: none;
+    color: #fff;
+    background-color: #ff4264;
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    margin-right: 1em;
+    box-shadow: 0 0 25px rgba(0,0,0,.3);
+}

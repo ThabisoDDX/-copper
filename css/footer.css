@@ -1,0 +1,63 @@
+.main-footer {
+    color: #fff;
+    width: 100%;
+    background-color: #321E41;
+    overflow: hidden;
+}
+
+.main-footer .container {
+    margin: 0 1em;
+}
+
+.main-footer .social-media h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    color: #fff;
+    padding: .8em 0;
+}
+
+.main-footer .social-media a img {
+    width: auto;
+    height: 15px;
+    margin-right: .5em;
+}
+
+.main-footer .widgets {
+    margin: 1.8em 0;
+}
+
+.main-footer .widgets div {
+    float: left;
+    width: 50%;
+}
+
+.main-footer .widgets h4 {
+    display: inline;
+    font-weight: 500;
+}
+
+.main-footer ul  a {
+    color: #fff;
+    font-size: .625em;
+    font-weight: 100;
+}
+
+.main-footer .copyright {
+    width: 100%;
+    clear: both;
+    font-size: .480em;
+    background-color: #463355;
+    padding: 1.5em 2em;
+}
+
+.main-footer .copyright p {
+    display: inline;
+    margin-right: .5em;
+}
+
+@media only screen and (min-width: 767px) {
+    
+    .main-footer .widgets div {
+        width: 20%;
+    }
+}

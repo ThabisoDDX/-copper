@@ -1,0 +1,47 @@
+.trial {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5em;
+    box-sizing: border-box;
+    background-color: #EEEFF0;
+}
+
+.trial h2 {
+    font-size: 1.6em;
+}
+
+.trial p {
+    font-size: .875em;
+    font-weight: 100;
+    margin: 1em 0;
+}
+
+.trial button {
+    border-style: none;
+    color: #fff;
+    background-color: #ff4264;
+    height: 40px;
+    width: 100px;
+    border-radius: 25px;
+    margin-right: 1em;
+    box-shadow: 0 0 25px rgba(0,0,0,.3);
+}
+
+.trial button:last-of-type {
+    color: #ff4264;
+    background-color: transparent;
+    border: 1px solid #ff4264;
+    box-shadow: none;
+}
+
+@media only screen and (min-width: 767px) {
+    
+    .trial h2 {
+        font-size: 2.2em;
+    }
+
+    .trial p {
+        font-size: 1.2em;
+    }
+}

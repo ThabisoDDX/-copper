@@ -1,0 +1,85 @@
+.testimonial {
+    margin: 2em 0;
+    overflow: hidden;
+}
+
+
+.testimonial .content {
+    background-color: #FF3465;
+    color: #EEEFF0;
+    padding: 5em 1.5em;
+}
+
+.testimonial .content h2 {
+    font-size: 1.6em;
+    width: 70%;
+}
+
+.testimonial .content p {
+    font-size: .625em;
+    width: 80%;
+    margin: 1.5em 0;
+}
+
+.testimonial .testimony {
+    width: 80%;
+    background-color: #fff;
+    border-top: 5px solid #00E6C3;
+    float: right;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .25);
+    margin-top: -4em;
+    padding: 0 1em;
+    box-sizing: border-box;
+}
+
+.testimonial .testimony p {
+    margin: 2em 0;
+    font-weight: 100;
+}
+
+.testimonial .testimony h6 {
+    text-transform: uppercase;
+}
+
+.testimonial .testimony h6:last-of-type {
+    font-weight: 100;
+}
+
+.testimonial .testimony img {
+    width: 90px;
+    margin-top: .5em;
+    margin-bottom: 2em;
+}
+
+.testimonial .grid {
+    width: 20%;
+}
+
+@media only screen and (min-width: 767px) {
+    
+    .testimonial {
+        clear: both;
+    }
+
+    .testimonial .content {
+        padding: 3em 1.5em;
+    }
+
+    .testimonial .content h2 {
+        font-size: 2.2em;
+        width: 40%;
+    }
+
+    .testimonial .content p {
+        font-size: 1em;
+        width: 55%;
+    }
+
+    .testimonial .testimony {
+        width: 40%;    
+    }
+
+    .testimonial .grid {
+        float: right;
+    }
+}

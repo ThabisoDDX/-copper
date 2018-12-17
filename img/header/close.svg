@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.625 24.781">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #eeeff0;
+      }
+    </style>
+  </defs>
+  <g id="close" transform="translate(-266.188 -13.11)">
+    <line id="Line_21" data-name="Line 21" class="cls-1" x2="30" y2="24" transform="translate(266.5 13.5)"/>
+    <path id="Path_80" data-name="Path 80" class="cls-1" d="M30,0,0,24" transform="translate(266.5 13.5)"/>
+  </g>
+</svg>

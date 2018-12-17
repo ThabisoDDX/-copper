@@ -1,0 +1,14 @@
+.main-content {
+    width: 100%;
+    height: auto;
+}
+
+a, button {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}

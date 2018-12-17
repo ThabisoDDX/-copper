@@ -1,0 +1,97 @@
+.story .success {
+    width: 100%;
+    background-color: #00E6C3;
+    padding: 4em 0;
+    padding-left: 1em;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.story .success h3 {
+    font-size: .875em;
+    font-weight: 300;
+    margin-bottom: 4em;
+    margin-left: 2em;
+}
+
+.story .success figure {
+    float: right;
+    margin-bottom: 4em;
+}
+
+.story .success figure img:last-of-type {
+    display: none;
+}
+
+.story .grid {
+    margin-top: -12em;
+    width: 80%;
+    float: right;
+}
+
+.story .quote {
+    width: 80%;
+    margin-top: -7em;
+    padding: 0 1em; 
+}
+
+.story .quote p {
+    margin: 2em 0;
+    font-weight: 100; 
+}
+
+.story .quote h6:last-of-type {
+    font-weight: 100; 
+}
+
+.story .quote img {
+    font-weight: 100;
+    width: 90px;
+    margin-top: .5em; 
+}
+
+@media only screen and (min-width: 767px) {
+   .story {
+        border-right: 10em solid #eeeff0;
+        position: relative;
+        margin: 2em 0;
+   }
+
+   .story .success {
+        padding-left: 0px;
+        overflow: visible;
+        height: 700px;
+    }
+
+    .story .success h3 {
+        font-size: 1em;
+        margin-left: 6em; 
+    }
+
+    .story .success figure {
+        margin-right: -4em;
+    }
+
+    .story .success figure img:first-of-type {
+        display: none;
+    }
+
+    .story .success figure img:last-of-type {
+        display: block;
+    }
+
+    .story .grid {
+        margin-top: -14em;
+        width: 40%;
+        margin-right: -8em;
+    }
+
+    .story .quote {
+        width: 60%;
+        padding: 0 4em;
+    }
+
+    .story .quote p {
+       font-size: 1.5em;
+    }
+}

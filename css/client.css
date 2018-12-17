@@ -1,0 +1,45 @@
+.client {
+    width: 92%;
+    height: auto;
+    margin: auto;
+    padding: 1.5em 0;
+}
+
+.client h2 {
+    font-size: 1.6em;
+}
+
+.client .logo {
+    width: 80%;
+    padding-left: 2.2em;
+}
+
+.client img {
+    display: inline-block;
+    width: 40%;
+    width: 30%;
+    margin-right: 2.5em;
+    margin-top: 4em;
+}
+
+@media only screen and (min-width: 767px) {
+
+    .client {
+       overflow: hidden;
+    }
+
+    .client h2 {
+        font-size: 2.2em;
+        float: left;
+        width: 42%;
+    }
+
+    .client .logo {
+        width: 50%;
+        float: right;
+    }
+
+    .client .logo img:nth-child(2n) {
+        margin-left: 2.5em;
+    }
+}
